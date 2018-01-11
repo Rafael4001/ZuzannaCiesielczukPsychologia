@@ -152,14 +152,14 @@ ul li {
 }
 .navigation a:hover, .navigation a.active {
 	color: #f5f2ff;
-	background-color: rgba(131, 126, 156, 0.2);
+	/*background-color: rgba(131, 126, 156, 0.2);*/
 	/*border: solid #9bad37 1px;*/
 	/*-webkit-box-shadow: -2px 4px 17px -6px rgba(0,0,0,0.68);*/
 	/*-moz-box-shadow: -2px 4px 17px -6px rgba(0,0,0,0.68);*/
 	/*box-shadow: -2px 4px 17px -6px rgba(0,0,0,0.68);*/
-	-webkit-box-shadow: -2px 4px 17px -6px rgba(0,0,0,0.68);
-	-moz-box-shadow: -2px 4px 17px -6px rgba(0,0,0,0.68);
-	box-shadow: -2px 4px 17px -6px rgba(0,0,0,0.68);
+	-webkit-box-shadow: -8px 18px 30px -13px rgba(0,0,0,0.68);
+	-moz-box-shadow: -8px 18px 30px -13px rgba(0,0,0,0.68);
+	box-shadow: -8px 18px 30px -13px rgba(0,0,0,0.68);
 }
 .nav-toggle {
 	display: none;
@@ -315,6 +315,7 @@ ul li {
 }
 .banner-text {
 	padding-top: 45%;
+	/*background-color: rgba(0,0,0,0.1);*/
 }
 .banner-text h1 {
 	color: #f5f2ff;
