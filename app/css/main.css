@@ -154,9 +154,9 @@ ul li {
   /*-webkit-box-shadow: -2px 4px 17px -6px rgba(0,0,0,0.68);*/
   /*-moz-box-shadow: -2px 4px 17px -6px rgba(0,0,0,0.68);*/
   /*box-shadow: -2px 4px 17px -6px rgba(0,0,0,0.68);*/
-  -webkit-box-shadow: -8px 18px 30px -13px rgba(0, 0, 0, 0.68);
-  -moz-box-shadow: -8px 18px 30px -13px rgba(0, 0, 0, 0.68);
-  box-shadow: -8px 18px 30px -13px rgba(0, 0, 0, 0.68); }
+  -webkit-box-shadow: -8px 18px 30px -13px rgba(221, 218, 231, 0.68);
+  -moz-box-shadow: -8px 18px 30px -13px rgba(221, 218, 231, 0.68);
+  box-shadow: -8px 18px 30px -13px rgba(221, 218, 231, 0.68); }
 
 .nav-toggle {
   display: none;
