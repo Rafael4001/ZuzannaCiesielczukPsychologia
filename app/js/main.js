@@ -5,9 +5,11 @@ $(document).ready(function() {
 
 		if (scroll >= 50) {
 			$('#header').addClass('fixed');
+			$('.primary-nav').addClass('a-fixed');
 		} else {
 			$('#header').removeClass('fixed');
-		}
+      $('.primary-nav').removeClass('a-fixed');
+    }
 	});
 
 

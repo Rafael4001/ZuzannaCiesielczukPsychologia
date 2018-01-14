@@ -4,6 +4,7 @@
 	Author URI: http://www.designstub.com
 ------------------------------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
+@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT");
 /* ------------------------------------------------------------------------------
 	 Typography
 -------------------------------------------------------------------------------*/
@@ -126,6 +127,11 @@ ul li {
 
 #header.fixed .nav-toggle {
   top: 18px; }
+
+.a-fixed {
+  background-color: rgba(175, 175, 175, 0.85); }
+  .a-fixed a {
+    color: black; }
 
 .navigation.open {
   opacity: 0.96;
@@ -317,13 +323,13 @@ ul li {
 
 .banner-text h1 {
   color: #f5f2ff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Old Standard TT", serif;
   font-size: 4vw;
   font-weight: 400; }
 
 .banner-text h3 {
   color: #f5f2ff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Old Standard TT", serif;
   font-size: 25px;
   font-weight: 400; }
 
