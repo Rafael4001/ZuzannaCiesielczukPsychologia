@@ -1,8 +1,9 @@
 $color-dark_green: #2b3311;
 
+
 @media screen and (max-width: 1199px) {
   .banner {
-    min-height: 750px;
+    min-height: 700px;
   }
   $fontSize_H1_1199: 3.8vw;
   .banner-text h1 {
@@ -87,6 +88,7 @@ $color-dark_green: #2b3311;
 
 /*-----------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 991px) {
+
   .banner-text {
     padding-top: 35%;
   }
