@@ -1,11 +1,18 @@
 $color-dark_green: #2b3311;
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1199px) {
   .banner {
-    min-height: 450px;
+    min-height: 750px;
   }
+  $fontSize_H1_1199: 3.8vw;
   .banner-text h1 {
-    font-size: 5vw;
+    font-size: $fontSize_H1_1199;
+    padding-top: 0;
+  }
+
+  .banner-text h3 {
+    font-size: $fontSize_H1_1199/1.6;
+    padding-top: 0;
   }
 
   #header .header-content {
@@ -79,17 +86,20 @@ $color-dark_green: #2b3311;
 }
 
 /*-----------------------------------------------------------------------------------------------*/
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 991px) {
   .banner-text {
     padding-top: 35%;
   }
+  //$fontSize_H1_992: 4.8vw;
 
   .banner-text h1 {
-    font-size: 4.8vw;
+    //font-size: $fontSize_H1_992;
+    padding-top: 0;
   }
 
   .banner-text h3 {
-    font-size: 3.5vw;
+    //font-size: $fontSize_H1_992/1.6;
+    padding-top: 0;
   }
 
   .banner-text p {
@@ -110,30 +120,24 @@ $color-dark_green: #2b3311;
 }
 
 /*-----------------------------------------------------------------------------------------------*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
   .banner-text {
-    padding-top: 35%;
-    text-align: center;
-  }
-}
-
-/*-----------------------------------------------------------------------------------------------*/
-@media screen and (max-width: 480px) {
-  .banner-text {
+    margin-top: 50%;
     //padding-top: 45%;
     text-align: center;
-    background-color: rgba($color-dark_green, 0.85);
+    background-color: rgba($color-dark_green, 0.75);
     margin-top: 350px;
-    padding: 5px;
+    padding: 3vw;
   }
+  $fontSize_H1: 6vw;
 
   .banner-text h1 {
-    font-size: 7vw;
+    font-size: $fontSize_H1;
     padding-top: 0;
   }
 
   .banner-text h3 {
-    font-size: 4.2vw;
+    font-size: $fontSize_H1/1.6;
     padding-top: 0;
   }
 
@@ -149,9 +153,44 @@ $color-dark_green: #2b3311;
 }
 
 /*-----------------------------------------------------------------------------------------------*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 479px) {
+  .banner-text {
+    margin-top: 50%;
+    //padding-top: 45%;
+    text-align: center;
+    background-color: rgba($color-dark_green, 0.75);
+    margin-top: 350px;
+    padding: 15px;
+  }
+  $fontSize_H1: 6vw;
+
+  .banner-text h1 {
+    font-size: $fontSize_H1;
+    padding-top: 0;
+  }
+
+  .banner-text h3 {
+    font-size: $fontSize_H1/1.6;
+    padding-top: 0;
+  }
+
+  .banner-text p {
+    font-size: 3.2vw;
+    padding-top: 0;
+
+  }
+
   .banner {
     height: 30px !important;
+  }
+}
+
+//To jest poza boostrapem
+/*-----------------------------------------------------------------------------------------------*/
+/*@media screen and (max-width: 320px) {
+  .banner {
+    height: 30px !important;
+
   }
 
   .banner-text {
@@ -179,3 +218,4 @@ $color-dark_green: #2b3311;
     font-size: 26px;
   }
 }
+*/
