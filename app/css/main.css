@@ -38,11 +38,11 @@ h5 {
   font-weight: 700; }
 
 .btn {
-  border: 1px solid rgba(6, 6, 6, 0.75);
+  font-family: "Old Standard TT", serif;
+  border: 1px solid rgba(238, 238, 238, 0.75);
   margin-top: 20px;
   color: #eeeeee;
   font-size: 12px;
-  font-weight: 400;
   letter-spacing: 1px;
   border-radius: 0px;
   padding: 1.5% 3%;
@@ -50,7 +50,7 @@ h5 {
   text-transform: uppercase; }
 
 .btn:hover, .btn:focus {
-  background-color: rgba(188, 188, 188, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
   color: #fff; }
 
 .btn-large {
@@ -128,11 +128,6 @@ ul li {
 #header.fixed .nav-toggle {
   top: 18px; }
 
-.a-fixed {
-  background-color: rgba(175, 175, 175, 0.85); }
-  .a-fixed a {
-    color: black; }
-
 .navigation.open {
   opacity: 0.96;
   visibility: visible;
@@ -202,7 +197,7 @@ ul li {
   transition-property: transform; }
 
 .nav-toggle:before {
-  background-color: #465724;
+  background-color: #2b3311;
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
@@ -213,7 +208,7 @@ ul li {
   transition-duration: 0.3s; }
 
 .nav-toggle:after {
-  background-color: #465724;
+  background-color: #2b3311;
   -moz-transform: scale(0);
   -ms-transform: scale(0);
   -webkit-transform: scale(0);
@@ -324,17 +319,18 @@ ul li {
 .banner-text h1 {
   color: #f5f2ff;
   font-family: "Old Standard TT", serif;
-  font-size: 4vw;
+  font-size: 3.6vw;
   font-weight: 400; }
 
 .banner-text h3 {
   color: #f5f2ff;
   font-family: "Old Standard TT", serif;
-  font-size: 25px;
+  font-size: 2.11765vw;
   font-weight: 400; }
 
 .banner-text p {
   color: #f5f2ff;
+  font-family: "Old Standard TT", serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 1.5;

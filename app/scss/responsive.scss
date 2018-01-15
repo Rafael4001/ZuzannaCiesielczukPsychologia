@@ -1,10 +1,12 @@
+$color-dark_green: #2b3311;
+
 @media screen and (max-width: 1024px) {
   .banner {
     min-height: 450px;
   }
-  /*.banner-text h1 {*/
-    /*font-size: 5vw;*/
-  /*}*/
+  .banner-text h1 {
+    font-size: 5vw;
+  }
 
   #header .header-content {
     width: 90%;
@@ -77,17 +79,17 @@
 }
 
 /*-----------------------------------------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .banner-text {
     padding-top: 35%;
   }
 
   .banner-text h1 {
-    font-size: 7vw;
+    font-size: 4.8vw;
   }
 
   .banner-text h3 {
-    font-size: 4.2vw;
+    font-size: 3.5vw;
   }
 
   .banner-text p {
@@ -118,20 +120,27 @@
 /*-----------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 480px) {
   .banner-text {
-    padding-top: 45%;
+    //padding-top: 45%;
     text-align: center;
+    background-color: rgba($color-dark_green, 0.85);
+    margin-top: 350px;
+    padding: 5px;
   }
 
   .banner-text h1 {
     font-size: 7vw;
+    padding-top: 0;
   }
 
   .banner-text h3 {
     font-size: 4.2vw;
+    padding-top: 0;
   }
 
   .banner-text p {
     font-size: 3.2vw;
+    padding-top: 0;
+
   }
 
   .banner {

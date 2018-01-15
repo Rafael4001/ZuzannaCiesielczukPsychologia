@@ -13,6 +13,8 @@
 -------------------------------------------------------------------------------*/
 $baner_font: 'Old Standard TT', serif;
 
+
+
 p {
   font-size: 14px;
   line-height: 22.4px;
@@ -49,11 +51,12 @@ h5 {
 }
 
 .btn {
-  border: 1px solid rgba(6, 6, 6, 0.75);
+  font-family: $baner_font;
+  border: 1px solid rgba(238, 238, 238, 0.75);
   margin-top: 20px;
   color: #eeeeee;
   font-size: 12px;
-  font-weight: 400;
+  //font-weight: 400;
   letter-spacing: 1px;
   border-radius: 0px;
   padding: 1.5% 3%;
@@ -62,8 +65,11 @@ h5 {
 }
 
 .btn:hover, .btn:focus {
-  background-color: rgba(188, 188, 188, 0.1);
+  //background-color: rgba(155, 155, 155, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
+
   color: #fff;
+
 }
 
 .btn-large {
@@ -73,6 +79,8 @@ h5 {
 /* ------------------------------------------------------------------------------
 	 General Style
 -------------------------------------------------------------------------------*/
+//moze przez to ze jest zostawione tak globalnie nie moge tego zmodyfikowac? moze trzeba zrobic tak jak jest baner --> .banner-text h
+
 a {
   color: #6c7279;
 }
@@ -157,10 +165,7 @@ ul li {
 }
 
 .a-fixed {
-  background-color: rgba(175, 175, 175, 0.85);
-  a {
-    color: black;
-  }
+
 }
 
 .navigation.open {
@@ -238,8 +243,9 @@ ul li {
   transition-property: transform;
 }
 
+$color-dark_green: #2b3311;
 .nav-toggle:before {
-  background-color: #465724;
+  background-color: $color-dark_green;
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
@@ -251,7 +257,7 @@ ul li {
 }
 
 .nav-toggle:after {
-  background-color: #465724;
+  background-color: $color-dark_green;
   -moz-transform: scale(0);
   -ms-transform: scale(0);
   -webkit-transform: scale(0);
@@ -373,22 +379,25 @@ ul li {
   /*background-color: rgba(0,0,0,0.1);*/
 }
 
+$baner_font_size: 3.6vw;
+
 .banner-text h1 {
   color: #f5f2ff;
   font-family: $baner_font;
-  font-size: 4vw;
+  font-size: $baner_font_size;
   font-weight: 400;
 }
 
 .banner-text h3 {
   color: #f5f2ff;
   font-family: $baner_font;
-  font-size: 25px;
+  font-size: ($baner_font_size/1.7);
   font-weight: 400;
 }
 
 .banner-text p {
   color: #f5f2ff;
+  font-family: $baner_font;
   font-size: 15px;
   font-weight: 300;
   line-height: 1.5;
