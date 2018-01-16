@@ -1,5 +1,10 @@
 $color-dark_green: #2b3311;
 
+@media screen and (min-width: 1200px) {
+  .fixed a {
+    color: #000000;
+  }
+}
 
 @media screen and (max-width: 1199px) {
   .banner {
@@ -84,6 +89,10 @@ $color-dark_green: #2b3311;
   .flex-control-nav {
     bottom: 20px;
   }
+  #header.fixed {
+    background-color: transparent;
+  }
+
 }
 
 /*-----------------------------------------------------------------------------------------------*/

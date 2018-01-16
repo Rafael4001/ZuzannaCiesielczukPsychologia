@@ -59,9 +59,6 @@ h5 {
 /* ------------------------------------------------------------------------------
 	 General Style
 -------------------------------------------------------------------------------*/
-a {
-  color: #6c7279; }
-
 a:hover, a:focus {
   color: #000000;
   text-decoration: none;
@@ -96,6 +93,7 @@ ul li {
 	$Header
 ========================================================================== */
 #header {
+  font-family: "Old Standard TT", serif;
   position: fixed;
   width: 100%;
   z-index: 999; }
@@ -119,7 +117,7 @@ ul li {
   text-transform: uppercase; }
 
 #header.fixed {
-  background-color: rgba(255, 255, 255, 0.75); }
+  background-color: rgba(255, 255, 255, 0.95); }
 
 #header.fixed .header-content {
   border-bottom: 0;
@@ -150,7 +148,7 @@ ul li {
   margin-left: 40px; }
 
 .navigation a:hover, .navigation a.active {
-  color: #f5f2ff;
+  color: #aeac00;
   /*background-color: rgba(131, 126, 156, 0.2);*/
   /*border: solid #9bad37 1px;*/
   /*-webkit-box-shadow: -2px 4px 17px -6px rgba(0,0,0,0.68);*/
@@ -486,3 +484,6 @@ ul li {
 
 .font-Courgette {
   font-family: 'Courgette', cursive; }
+
+#header .header-content .navigation .primary-nav ul li a {
+  background-color: yellow; }

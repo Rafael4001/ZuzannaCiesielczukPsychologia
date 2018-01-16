@@ -1,3 +1,7 @@
+@media screen and (min-width: 1200px) {
+  .fixed a {
+    color: #000000; } }
+
 @media screen and (max-width: 1199px) {
   .banner {
     min-height: 700px; }
@@ -51,7 +55,9 @@
   .testimonials p {
     font-size: 26px; }
   .flex-control-nav {
-    bottom: 20px; } }
+    bottom: 20px; }
+  #header.fixed {
+    background-color: transparent; } }
 
 /*-----------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 991px) {

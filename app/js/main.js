@@ -12,7 +12,7 @@ $(document).ready(function() {
     }
 	});
 
-
+	console.log()
 
 	// Fancybox
 	$('.work-box').fancybox();
